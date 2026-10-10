@@ -1,0 +1,21 @@
+name: Refresh agent data
+on:
+  schedule: [{ cron: "0 9 * * 1" }]   # weekly, Monday 09:00 UTC
+  workflow_dispatch:
+permissions: { contents: write }
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run refresh
+        env: { GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}" }
+      - run: npm test
+      - name: Commit if changed
+        run: |
+          git config user.name "agent-atlas-bot"; git config user.email "actions@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -m "chore(data): weekly refresh" && git push)
