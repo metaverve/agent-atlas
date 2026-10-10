@@ -2,7 +2,7 @@
 
 **The AI agent ecosystem, live.** 214 AI agents and agent frameworks with live GitHub stars, fuzzy search, multi-filter, an interactive stack graph, a JSON API, and an MCP server so agents can query it too.
 
-**Live:** https://agent-atlas-metaverve.vercel.app · **API docs:** [/docs](https://agent-atlas-metaverve.vercel.app/docs) · **OpenAPI:** [/api/openapi.json](https://agent-atlas-metaverve.vercel.app/api/openapi.json) · **llms.txt:** [/llms.txt](https://agent-atlas-metaverve.vercel.app/llms.txt)
+**Live:** https://agent-atlas-kohl.vercel.app · **API docs:** [/docs](https://agent-atlas-kohl.vercel.app/docs) · **OpenAPI:** [/api/openapi.json](https://agent-atlas-kohl.vercel.app/api/openapi.json) · **llms.txt:** [/llms.txt](https://agent-atlas-kohl.vercel.app/llms.txt)
 
 ![Home](docs/screenshots/01-home.png)
 
@@ -23,10 +23,10 @@
 ## API
 
 ```bash
-curl 'https://agent-atlas-metaverve.vercel.app/api/agents?useCase=Coding&oss=true&minStars=10000&sort=stars&limit=5'
-curl  https://agent-atlas-metaverve.vercel.app/api/agents/autogpt
-curl  https://agent-atlas-metaverve.vercel.app/api/categories
-curl  https://agent-atlas-metaverve.vercel.app/api/graph?agents=false
+curl 'https://agent-atlas-kohl.vercel.app/api/agents?useCase=Coding&oss=true&minStars=10000&sort=stars&limit=5'
+curl  https://agent-atlas-kohl.vercel.app/api/agents/autogpt
+curl  https://agent-atlas-kohl.vercel.app/api/categories
+curl  https://agent-atlas-kohl.vercel.app/api/graph?agents=false
 ```
 Params for `/api/agents`: `q, category, useCase, oss, language, minStars, maxStars, tool (stack tool id), sort (stars|forks|recent|name), limit, offset`.
 
@@ -35,7 +35,7 @@ Params for `/api/agents`: `q, category, useCase, oss, language, minStars, maxSta
 Stateless Streamable HTTP endpoint at `/api/mcp`.
 
 ```bash
-claude mcp add --transport http agent-atlas https://agent-atlas-metaverve.vercel.app/api/mcp
+claude mcp add --transport http agent-atlas https://agent-atlas-kohl.vercel.app/api/mcp
 ```
 
 ## Grok tool calling (xAI function calling)
@@ -44,7 +44,7 @@ claude mcp add --transport http agent-atlas https://agent-atlas-metaverve.vercel
 import json, requests
 from openai import OpenAI  # xAI is OpenAI-compatible
 client = OpenAI(base_url="https://api.x.ai/v1", api_key="$XAI_API_KEY")
-ATLAS = "https://agent-atlas-metaverve.vercel.app/api/mcp"
+ATLAS = "https://agent-atlas-kohl.vercel.app/api/mcp"
 tools = [{"type": "function", "function": {
   "name": "search_agents",
   "description": "Search the AI agent ecosystem catalog with live GitHub stars.",
@@ -64,7 +64,7 @@ for tc in resp.choices[0].message.tool_calls or []:
              "content": call_atlas(tc.function.name, json.loads(tc.function.arguments))}]
 print(client.chat.completions.create(model="grok-4-fast", messages=msgs, tools=tools).choices[0].message.content)
 ```
-All three tool schemas are on [/docs](https://agent-atlas-metaverve.vercel.app/docs).
+All three tool schemas are on [/docs](https://agent-atlas-kohl.vercel.app/docs).
 
 **Ask Grok (in-app):** `POST /api/ask` runs this loop server-side, **only when `XAI_API_KEY` is set** on the deployment. It is not set today, so the feature is disabled and says so. Nothing is simulated.
 
