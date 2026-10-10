@@ -1,0 +1,831 @@
+{
+ "fetchedAt": "2026-10-10T18:15:59.177Z",
+ "stats": {
+  "humansignal/adala": {
+   "stars": 1638,
+   "forks": 162,
+   "language": "Python",
+   "pushedAt": "2026-10-03T17:44:18Z",
+   "archived": false
+  },
+  "lehengthu/agent4rec": {
+   "stars": 503,
+   "forks": 62,
+   "language": "Python",
+   "pushedAt": "2024-07-07T05:45:01Z",
+   "archived": false
+  },
+  "databassgit/agentforge": {
+   "stars": 851,
+   "forks": 161,
+   "language": "Python",
+   "pushedAt": "2026-08-10T20:45:31Z",
+   "archived": false
+  },
+  "reworkd/agentgpt": {
+   "stars": 36289,
+   "forks": 9220,
+   "language": "TypeScript",
+   "pushedAt": "2025-04-29T01:19:32Z",
+   "archived": true
+  },
+  "jbexta/agentpilot": {
+   "stars": 568,
+   "forks": 81,
+   "language": "Python",
+   "pushedAt": "2026-04-14T04:11:29Z",
+   "archived": false
+  },
+  "aiwaves-cn/agents": {
+   "stars": 5966,
+   "forks": 480,
+   "language": "Python",
+   "pushedAt": "2024-09-26T03:12:53Z",
+   "archived": false
+  },
+  "openbmb/agentverse": {
+   "stars": 5156,
+   "forks": 523,
+   "language": "JavaScript",
+   "pushedAt": "2024-09-09T05:47:44Z",
+   "archived": false
+  },
+  "eumemic/ai-legion": {
+   "stars": 1437,
+   "forks": 171,
+   "language": "TypeScript",
+   "pushedAt": "2025-05-27T23:52:06Z",
+   "archived": false
+  },
+  "paul-gauthier/aider": {
+   "stars": 49456,
+   "forks": 5045,
+   "language": "Python",
+   "pushedAt": "2026-05-22T14:02:20Z",
+   "archived": false
+  },
+  "myshell-ai/ailice": {
+   "stars": 1419,
+   "forks": 208,
+   "language": "Python",
+   "pushedAt": "2025-08-18T03:24:03Z",
+   "archived": false
+  },
+  "microsoft/autogen": {
+   "stars": 61342,
+   "forks": 9274,
+   "language": "Python",
+   "pushedAt": "2026-04-15T11:59:09Z",
+   "archived": false
+  },
+  "significant-gravitas/auto-gpt": {
+   "stars": 187514,
+   "forks": 45922,
+   "language": "Python",
+   "pushedAt": "2026-10-10T17:18:47Z",
+   "archived": false
+  },
+  "emrgnt-cmplxty/automata": {
+   "stars": 682,
+   "forks": 112,
+   "language": "Python",
+   "pushedAt": "2023-09-05T21:24:32Z",
+   "archived": true
+  },
+  "irgolic/autopr": {
+   "stars": 1372,
+   "forks": 93,
+   "language": "Python",
+   "pushedAt": "2026-03-05T23:34:26Z",
+   "archived": true
+  },
+  "stepanogil/autonomous-hr-chatbot": {
+   "stars": 460,
+   "forks": 110,
+   "language": "Python",
+   "pushedAt": "2026-04-29T06:34:58Z",
+   "archived": false
+  },
+  "yoheinakajima/babyagi": {
+   "stars": 22361,
+   "forks": 2842,
+   "language": "Python",
+   "pushedAt": "2026-01-31T05:05:45Z",
+   "archived": false
+  },
+  "saten-private/babycommandagi": {
+   "stars": 60,
+   "forks": 6,
+   "language": "Python",
+   "pushedAt": "2025-06-11T15:37:12Z",
+   "archived": false
+  },
+  "pgalko/bambooai": {
+   "stars": 793,
+   "forks": 87,
+   "language": "Python",
+   "pushedAt": "2026-10-08T09:32:01Z",
+   "archived": false
+  },
+  "autopackai/beebot": {
+   "stars": 452,
+   "forks": 79,
+   "language": "Python",
+   "pushedAt": "2023-10-22T23:25:16Z",
+   "archived": false
+  },
+  "seahyinghang8/blinky": {
+   "stars": 91,
+   "forks": 9,
+   "language": "TypeScript",
+   "pushedAt": "2024-06-03T01:34:13Z",
+   "archived": false
+  },
+  "bloopai/bloop": {
+   "stars": 9484,
+   "forks": 601,
+   "language": "Rust",
+   "pushedAt": "2024-12-04T17:39:21Z",
+   "archived": true
+  },
+  "krohling/bondai": {
+   "stars": 226,
+   "forks": 28,
+   "language": "Python",
+   "pushedAt": "2024-01-14T02:06:07Z",
+   "archived": false
+  },
+  "xeol-io/bumpgen": {
+   "stars": 145,
+   "forks": 12,
+   "language": "TypeScript",
+   "pushedAt": "2024-08-05T00:43:06Z",
+   "archived": false
+  },
+  "calcom/cal.com": {
+   "stars": 48940,
+   "forks": 15308,
+   "language": "TypeScript",
+   "pushedAt": "2026-09-26T07:48:40Z",
+   "archived": false
+  },
+  "camel-ai/camel": {
+   "stars": 17850,
+   "forks": 2109,
+   "language": "Python",
+   "pushedAt": "2026-10-05T11:43:27Z",
+   "archived": false
+  },
+  "farama-foundation/chatarena": {
+   "stars": 1565,
+   "forks": 151,
+   "language": "Python",
+   "pushedAt": "2025-08-11T20:19:17Z",
+   "archived": false
+  },
+  "openbmb/chatdev": {
+   "stars": 34478,
+   "forks": 4320,
+   "language": "Python",
+   "pushedAt": "2026-07-24T08:01:27Z",
+   "archived": false
+  },
+  "ur-whitelab/chemcrow-public": {
+   "stars": 958,
+   "forks": 149,
+   "language": "Python",
+   "pushedAt": "2024-12-19T17:47:04Z",
+   "archived": false
+  },
+  "ennucore/clippy": {
+   "stars": 411,
+   "forks": 50,
+   "language": "Python",
+   "pushedAt": "2024-05-05T12:31:29Z",
+   "archived": false
+  },
+  "codefuse-ai/codefuse-chatbot": {
+   "stars": 1295,
+   "forks": 148,
+   "language": "Python",
+   "pushedAt": "2024-07-01T09:16:47Z",
+   "archived": false
+  },
+  "ajhous44/cody": {
+   "stars": 66,
+   "forks": 8,
+   "language": "Python",
+   "pushedAt": "2025-03-11T22:24:29Z",
+   "archived": false
+  },
+  "continuedev/continue": {
+   "stars": 36170,
+   "forks": 5459,
+   "language": "TypeScript",
+   "pushedAt": "2026-10-09T21:22:45Z",
+   "archived": false
+  },
+  "joaomdmoura/crewai": {
+   "stars": 59533,
+   "forks": 8681,
+   "language": "Python",
+   "pushedAt": "2026-10-09T22:33:43Z",
+   "archived": false
+  },
+  "technion-kishony-lab/data-to-paper": {
+   "stars": 829,
+   "forks": 95,
+   "language": "Python",
+   "pushedAt": "2025-07-19T15:01:19Z",
+   "archived": false
+  },
+  "gmpetrov/databerry": {
+   "stars": 2965,
+   "forks": 412,
+   "language": null,
+   "pushedAt": "2024-06-17T12:36:06Z",
+   "archived": false
+  },
+  "melih-unsal/demogpt": {
+   "stars": 1906,
+   "forks": 222,
+   "language": "Python",
+   "pushedAt": "2026-04-01T12:30:12Z",
+   "archived": false
+  },
+  "jina-ai/dev-gpt": {
+   "stars": 1864,
+   "forks": 169,
+   "language": "Python",
+   "pushedAt": "2023-08-01T09:42:54Z",
+   "archived": false
+  },
+  "stitionai/devika": {
+   "stars": 19555,
+   "forks": 2566,
+   "language": "Python",
+   "pushedAt": "2025-09-25T08:47:36Z",
+   "archived": false
+  },
+  "entropy-research/devon": {
+   "stars": 3450,
+   "forks": 282,
+   "language": "Python",
+   "pushedAt": "2025-05-26T05:47:27Z",
+   "archived": false
+  },
+  "kuafuai/devopsgpt": {
+   "stars": 5966,
+   "forks": 718,
+   "language": "HTML",
+   "pushedAt": "2026-10-04T15:51:39Z",
+   "archived": false
+  },
+  "dot-agent/dotagent": {
+   "stars": 2346,
+   "forks": 179,
+   "language": "Python",
+   "pushedAt": "2024-05-01T09:46:55Z",
+   "archived": false
+  },
+  "eidolon-ai/eidolon": {
+   "stars": 492,
+   "forks": 53,
+   "language": "Python",
+   "pushedAt": "2026-05-20T02:52:18Z",
+   "archived": false
+  },
+  "uilicious/english-compiler": {
+   "stars": 296,
+   "forks": 17,
+   "language": "JavaScript",
+   "pushedAt": "2024-02-05T12:40:52Z",
+   "archived": false
+  },
+  "polywrap/evo.ninja": {
+   "stars": 1079,
+   "forks": 168,
+   "language": "TypeScript",
+   "pushedAt": "2024-07-19T17:08:20Z",
+   "archived": false
+  },
+  "airtai/fastagency": {
+   "stars": 547,
+   "forks": 65,
+   "language": "Python",
+   "pushedAt": "2026-02-23T00:49:21Z",
+   "archived": false
+  },
+  "flowiseai/flowise": {
+   "stars": 55490,
+   "forks": 25059,
+   "language": "TypeScript",
+   "pushedAt": "2026-08-13T12:38:19Z",
+   "archived": true
+  },
+  "amirrezasalimi/friday": {
+   "stars": 68,
+   "forks": 11,
+   "language": "JavaScript",
+   "pushedAt": "2023-05-24T22:59:04Z",
+   "archived": false
+  },
+  "genia-dev/genia": {
+   "stars": 408,
+   "forks": 85,
+   "language": "Python",
+   "pushedAt": "2023-11-22T15:25:21Z",
+   "archived": false
+  },
+  "follgad/godmode-gpt": {
+   "stars": 230,
+   "forks": 54,
+   "language": "Python",
+   "pushedAt": "2024-11-30T10:56:23Z",
+   "archived": false
+  },
+  "kav-k/gptdiscord": {
+   "stars": 1853,
+   "forks": 288,
+   "language": "Python",
+   "pushedAt": "2026-02-06T23:33:50Z",
+   "archived": false
+  },
+  "antonosika/gpt-engineer": {
+   "stars": 55036,
+   "forks": 7281,
+   "language": "Python",
+   "pushedAt": "2025-05-14T10:15:10Z",
+   "archived": true
+  },
+  "0xpayne/gpt-migrate": {
+   "stars": 6976,
+   "forks": 500,
+   "language": "Python",
+   "pushedAt": "2024-09-17T23:13:51Z",
+   "archived": false
+  },
+  "pythagora-io/gpt-pilot": {
+   "stars": 33650,
+   "forks": 3456,
+   "language": "Python",
+   "pushedAt": "2026-06-18T18:38:25Z",
+   "archived": false
+  },
+  "assafelovic/gpt-researcher": {
+   "stars": 30005,
+   "forks": 4097,
+   "language": "Python",
+   "pushedAt": "2026-10-01T19:33:35Z",
+   "archived": false
+  },
+  "nicepkg/gpt-runner": {
+   "stars": 383,
+   "forks": 46,
+   "language": "TypeScript",
+   "pushedAt": "2023-09-11T13:14:48Z",
+   "archived": false
+  },
+  "metauto-ai/gptswarm": {
+   "stars": 1053,
+   "forks": 110,
+   "language": "Python",
+   "pushedAt": "2026-02-05T10:39:09Z",
+   "archived": false
+  },
+  "kreneskyp/ix": {
+   "stars": 1046,
+   "forks": 127,
+   "language": "Python",
+   "pushedAt": "2026-01-01T05:38:33Z",
+   "archived": false
+  },
+  "microsoft/jarvis": {
+   "stars": 25416,
+   "forks": 2243,
+   "language": "Python",
+   "pushedAt": "2025-07-29T13:44:13Z",
+   "archived": false
+  },
+  "langroid/langroid": {
+   "stars": 4112,
+   "forks": 420,
+   "language": "Python",
+   "pushedAt": "2026-10-10T17:26:02Z",
+   "archived": false
+  },
+  "felixbrock/lemon-agent": {
+   "stars": 350,
+   "forks": 28,
+   "language": "TypeScript",
+   "pushedAt": "2023-09-25T15:54:19Z",
+   "archived": false
+  },
+  "mpaepper/llm_agents": {
+   "stars": 1057,
+   "forks": 85,
+   "language": "Python",
+   "pushedAt": "2025-06-23T14:01:18Z",
+   "archived": false
+  },
+  "trypromptly/llmstack": {
+   "stars": 2307,
+   "forks": 351,
+   "language": "Python",
+   "pushedAt": "2024-12-11T19:59:51Z",
+   "archived": false
+  },
+  "promtengineer/localgpt": {
+   "stars": 22193,
+   "forks": 2451,
+   "language": "Python",
+   "pushedAt": "2026-08-26T04:52:30Z",
+   "archived": false
+  },
+  "farizrahman4u/loopgpt": {
+   "stars": 1452,
+   "forks": 131,
+   "language": "Python",
+   "pushedAt": "2026-07-03T09:29:12Z",
+   "archived": false
+  },
+  "samholt/l2mac": {
+   "stars": 159,
+   "forks": 44,
+   "language": "Python",
+   "pushedAt": "2024-12-27T00:50:24Z",
+   "archived": false
+  },
+  "rubriclab/maige": {
+   "stars": 104,
+   "forks": 11,
+   "language": "TypeScript",
+   "pushedAt": "2026-04-13T21:44:34Z",
+   "archived": false
+  },
+  "oneirocom/magick": {
+   "stars": 849,
+   "forks": 138,
+   "language": "TypeScript",
+   "pushedAt": "2025-06-24T18:36:14Z",
+   "archived": false
+  },
+  "memfreeme/memfree": {
+   "stars": 1513,
+   "forks": 213,
+   "language": "TypeScript",
+   "pushedAt": "2026-07-06T12:02:53Z",
+   "archived": false
+  },
+  "cpacker/memgpt": {
+   "stars": 25097,
+   "forks": 2643,
+   "language": null,
+   "pushedAt": "2026-09-10T17:59:08Z",
+   "archived": false
+  },
+  "biobootloader/mentat": {
+   "stars": 2538,
+   "forks": 232,
+   "language": "Python",
+   "pushedAt": "2025-01-07T22:52:59Z",
+   "archived": true
+  },
+  "geekan/metagpt": {
+   "stars": 70792,
+   "forks": 9001,
+   "language": "Python",
+   "pushedAt": "2026-01-21T10:12:33Z",
+   "archived": false
+  },
+  "muellerberndt/mini-agi": {
+   "stars": 2930,
+   "forks": 312,
+   "language": "Python",
+   "pushedAt": "2023-06-14T05:47:59Z",
+   "archived": false
+  },
+  "composable-models/llm_multiagent_debate": {
+   "stars": 552,
+   "forks": 85,
+   "language": "Python",
+   "pushedAt": "2025-04-24T21:49:03Z",
+   "archived": false
+  },
+  "rumpfmax/multi-gpt": {
+   "stars": 565,
+   "forks": 55,
+   "language": "Python",
+   "pushedAt": "2023-10-10T20:38:15Z",
+   "archived": false
+  },
+  "codeintegrity-ai/mutahunter": {
+   "stars": 301,
+   "forks": 27,
+   "language": "Python",
+   "pushedAt": "2025-04-17T15:46:03Z",
+   "archived": false
+  },
+  "mczhuge/nlsom": {
+   "stars": 82,
+   "forks": 14,
+   "language": "Python",
+   "pushedAt": "2025-03-11T07:18:27Z",
+   "archived": false
+  },
+  "xlang-ai/openagents": {
+   "stars": 4864,
+   "forks": 528,
+   "language": "Python",
+   "pushedAt": "2024-11-18T09:39:29Z",
+   "archived": false
+  },
+  "agiresearch/openagi": {
+   "stars": 2287,
+   "forks": 211,
+   "language": "Python",
+   "pushedAt": "2024-11-28T15:48:29Z",
+   "archived": false
+  },
+  "opendevin/opendevin": {
+   "stars": 90494,
+   "forks": 11978,
+   "language": "TypeScript",
+   "pushedAt": "2026-10-10T11:05:25Z",
+   "archived": false
+  },
+  "killianlucas/open-interpreter": {
+   "stars": 68541,
+   "forks": 5889,
+   "language": "Rust",
+   "pushedAt": "2026-10-07T02:12:48Z",
+   "archived": false
+  },
+  "pezzolabs/pezzo": {
+   "stars": 3277,
+   "forks": 280,
+   "language": "TypeScript",
+   "pushedAt": "2026-08-21T21:40:31Z",
+   "archived": false
+  },
+  "imartinez/privategpt": {
+   "stars": 57564,
+   "forks": 7619,
+   "language": "Python",
+   "pushedAt": "2026-10-09T13:17:19Z",
+   "archived": false
+  },
+  "topoteretes/promethai-backend": {
+   "stars": 190,
+   "forks": 25,
+   "language": "Python",
+   "pushedAt": "2024-11-05T16:35:08Z",
+   "archived": true
+  },
+  "othersideai/self-operating-computer": {
+   "stars": 10291,
+   "forks": 1416,
+   "language": "Python",
+   "pushedAt": "2025-09-19T19:31:39Z",
+   "archived": false
+  },
+  "smol-ai/developer": {
+   "stars": 12186,
+   "forks": 1069,
+   "language": "Python",
+   "pushedAt": "2024-04-07T07:11:03Z",
+   "archived": false
+  },
+  "stackwiseai/stackwise": {
+   "stars": 186,
+   "forks": 33,
+   "language": "TypeScript",
+   "pushedAt": "2024-02-18T21:01:03Z",
+   "archived": false
+  },
+  "cr-gjx/suspicion-agent": {
+   "stars": 166,
+   "forks": 20,
+   "language": "Python",
+   "pushedAt": "2023-11-08T08:02:01Z",
+   "archived": false
+  },
+  "princeton-nlp/swe-agent": {
+   "stars": 20516,
+   "forks": 2248,
+   "language": "Python",
+   "pushedAt": "2026-10-06T00:34:40Z",
+   "archived": false
+  },
+  "taxyai/browser-extension": {
+   "stars": 1280,
+   "forks": 424,
+   "language": "TypeScript",
+   "pushedAt": "2025-01-15T23:52:14Z",
+   "archived": false
+  },
+  "seanpixel/teenage-agi": {
+   "stars": 908,
+   "forks": 113,
+   "language": "Python",
+   "pushedAt": "2023-05-03T10:16:19Z",
+   "archived": false
+  },
+  "microsoft/ufo": {
+   "stars": 9980,
+   "forks": 1070,
+   "language": "Python",
+   "pushedAt": "2026-10-07T06:32:53Z",
+   "archived": false
+  },
+  "vanna-ai/vanna": {
+   "stars": 23822,
+   "forks": 2535,
+   "language": "Python",
+   "pushedAt": "2026-02-02T14:14:20Z",
+   "archived": true
+  },
+  "minedojo/voyager": {
+   "stars": 7257,
+   "forks": 708,
+   "language": "JavaScript",
+   "pushedAt": "2024-04-03T18:51:36Z",
+   "archived": false
+  },
+  "markeljan/web3gpt": {
+   "stars": 118,
+   "forks": 51,
+   "language": "TypeScript",
+   "pushedAt": "2026-08-24T19:39:02Z",
+   "archived": false
+  },
+  "theolvs/westworld": {
+   "stars": 60,
+   "forks": 14,
+   "language": "Jupyter Notebook",
+   "pushedAt": "2023-01-09T08:16:36Z",
+   "archived": false
+  },
+  "team-openpm/workgpt": {
+   "stars": 731,
+   "forks": 58,
+   "language": "TypeScript",
+   "pushedAt": "2023-06-23T21:58:43Z",
+   "archived": false
+  },
+  "canner/wrenai": {
+   "stars": 17838,
+   "forks": 2042,
+   "language": "Python",
+   "pushedAt": "2026-10-09T11:26:23Z",
+   "archived": false
+  },
+  "openbmb/xagent": {
+   "stars": 8550,
+   "forks": 902,
+   "language": "Python",
+   "pushedAt": "2026-07-31T03:30:54Z",
+   "archived": false
+  },
+  "yeagerai/yeagerai-agent": {
+   "stars": 592,
+   "forks": 62,
+   "language": "Python",
+   "pushedAt": "2026-06-05T20:25:58Z",
+   "archived": false
+  },
+  "pj4533/yourgoal": {
+   "stars": 53,
+   "forks": 10,
+   "language": "Swift",
+   "pushedAt": "2023-04-17T12:33:58Z",
+   "archived": false
+  },
+  "getcursor/cursor": {
+   "stars": 33264,
+   "forks": 2288,
+   "language": null,
+   "pushedAt": "2026-05-12T15:25:06Z",
+   "archived": false
+  },
+  "blob42/instrukt": {
+   "stars": 329,
+   "forks": 28,
+   "language": "Python",
+   "pushedAt": "2025-05-14T03:06:35Z",
+   "archived": false
+  },
+  "proficientai/js": {
+   "stars": 10,
+   "forks": 1,
+   "language": "JavaScript",
+   "pushedAt": "2023-06-24T14:35:31Z",
+   "archived": false
+  },
+  "langchain-ai/langchain": {
+   "stars": 147559,
+   "forks": 24752,
+   "language": "Python",
+   "pushedAt": "2026-10-10T08:54:26Z",
+   "archived": false
+  },
+  "run-llama/llama_index": {
+   "stars": 52459,
+   "forks": 8316,
+   "language": "Python",
+   "pushedAt": "2026-10-08T20:45:50Z",
+   "archived": false
+  },
+  "crewaiinc/crewai": {
+   "stars": 59533,
+   "forks": 8681,
+   "language": "Python",
+   "pushedAt": "2026-10-09T22:33:43Z",
+   "archived": false
+  },
+  "microsoft/semantic-kernel": {
+   "stars": 28640,
+   "forks": 4818,
+   "language": "C#",
+   "pushedAt": "2026-10-09T18:14:43Z",
+   "archived": false
+  },
+  "meta-llama/llama": {
+   "stars": 59624,
+   "forks": 9770,
+   "language": "Python",
+   "pushedAt": "2025-01-26T21:42:26Z",
+   "archived": false
+  },
+  "ollama/ollama": {
+   "stars": 182627,
+   "forks": 18189,
+   "language": "Go",
+   "pushedAt": "2026-10-10T07:31:41Z",
+   "archived": false
+  },
+  "chroma-core/chroma": {
+   "stars": 29472,
+   "forks": 2556,
+   "language": "Rust",
+   "pushedAt": "2026-10-10T05:26:13Z",
+   "archived": false
+  },
+  "weaviate/weaviate": {
+   "stars": 16877,
+   "forks": 1421,
+   "language": "Go",
+   "pushedAt": "2026-10-09T15:13:48Z",
+   "archived": false
+  },
+  "qdrant/qdrant": {
+   "stars": 35008,
+   "forks": 2734,
+   "language": "Rust",
+   "pushedAt": "2026-10-10T17:40:08Z",
+   "archived": false
+  },
+  "microsoft/playwright": {
+   "stars": 97431,
+   "forks": 6579,
+   "language": "TypeScript",
+   "pushedAt": "2026-10-10T04:39:12Z",
+   "archived": false
+  },
+  "e2b-dev/e2b": {
+   "stars": 14270,
+   "forks": 1099,
+   "language": "Python",
+   "pushedAt": "2026-10-09T14:55:23Z",
+   "archived": false
+  },
+  "modelcontextprotocol/specification": {
+   "stars": 9425,
+   "forks": 1861,
+   "language": "TypeScript",
+   "pushedAt": "2026-10-08T12:57:41Z",
+   "archived": false
+  },
+  "langfuse/langfuse": {
+   "stars": 35608,
+   "forks": 3961,
+   "language": "TypeScript",
+   "pushedAt": "2026-10-10T17:01:39Z",
+   "archived": false
+  },
+  "agentops-ai/agentops": {
+   "stars": 5884,
+   "forks": 643,
+   "language": "Python",
+   "pushedAt": "2026-06-25T08:25:03Z",
+   "archived": false
+  },
+  "vercel/next.js": {
+   "stars": 143106,
+   "forks": 34466,
+   "language": "JavaScript",
+   "pushedAt": "2026-10-10T17:41:08Z",
+   "archived": false
+  }
+ }
+}

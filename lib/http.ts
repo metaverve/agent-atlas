@@ -1,0 +1,2 @@
+export const CORS = { "Access-Control-Allow-Origin": "*", "Access-Control-Allow-Methods": "GET,POST,OPTIONS", "Access-Control-Allow-Headers": "content-type,mcp-session-id,mcp-protocol-version" };
+export const json = (d: unknown, init: ResponseInit = {}) => Response.json(d, { ...init, headers: { ...CORS, "Cache-Control": "public, s-maxage=21600, stale-while-revalidate=86400", ...(init.headers || {}) } });

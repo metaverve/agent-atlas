@@ -1,0 +1,42 @@
+{
+  "note": "Curated by agent-atlas. 'curated' edges are well-documented integrations; 'inferred' edges come from keyword mentions in the source list descriptions and are not verified.",
+  "layers": ["agent", "framework", "model", "memory", "tooling", "eval", "deployment"],
+  "tools": [
+    {"id":"langchain","name":"LangChain","layer":"framework","repo":"langchain-ai/langchain","keywords":["langchain"]},
+    {"id":"llamaindex","name":"LlamaIndex","layer":"framework","repo":"run-llama/llama_index","keywords":["llamaindex","llama index","llama_index"]},
+    {"id":"autogen","name":"AutoGen","layer":"framework","repo":"microsoft/autogen","keywords":["autogen"]},
+    {"id":"crewai","name":"CrewAI","layer":"framework","repo":"crewAIInc/crewAI","keywords":["crewai"]},
+    {"id":"semantic-kernel","name":"Semantic Kernel","layer":"framework","repo":"microsoft/semantic-kernel","keywords":["semantic kernel"]},
+    {"id":"openai","name":"OpenAI GPT","layer":"model","repo":null,"keywords":["openai","gpt-4","gpt-3","gpt4","chatgpt"]},
+    {"id":"anthropic","name":"Anthropic Claude","layer":"model","repo":null,"keywords":["claude","anthropic"]},
+    {"id":"grok","name":"xAI Grok","layer":"model","repo":null,"keywords":["grok","xai"]},
+    {"id":"llama","name":"Llama / open models","layer":"model","repo":"meta-llama/llama","keywords":["llama","mistral","open-source model","local model","ollama"]},
+    {"id":"ollama","name":"Ollama","layer":"model","repo":"ollama/ollama","keywords":["ollama"]},
+    {"id":"pinecone","name":"Pinecone","layer":"memory","repo":null,"keywords":["pinecone"]},
+    {"id":"chroma","name":"Chroma","layer":"memory","repo":"chroma-core/chroma","keywords":["chroma"]},
+    {"id":"weaviate","name":"Weaviate","layer":"memory","repo":"weaviate/weaviate","keywords":["weaviate"]},
+    {"id":"qdrant","name":"Qdrant","layer":"memory","repo":"qdrant/qdrant","keywords":["qdrant"]},
+    {"id":"playwright","name":"Playwright","layer":"tooling","repo":"microsoft/playwright","keywords":["playwright","selenium","browser"]},
+    {"id":"e2b","name":"E2B sandboxes","layer":"tooling","repo":"e2b-dev/E2B","keywords":["e2b","sandbox","code interpreter"]},
+    {"id":"mcp","name":"Model Context Protocol","layer":"tooling","repo":"modelcontextprotocol/specification","keywords":["mcp","model context protocol"]},
+    {"id":"langsmith","name":"LangSmith","layer":"eval","repo":null,"keywords":["langsmith"]},
+    {"id":"langfuse","name":"Langfuse","layer":"eval","repo":"langfuse/langfuse","keywords":["langfuse","observability"]},
+    {"id":"agentops","name":"AgentOps","layer":"eval","repo":"AgentOps-AI/agentops","keywords":["agentops","benchmark","evaluation"]},
+    {"id":"docker","name":"Docker","layer":"deployment","repo":null,"keywords":["docker","container"]},
+    {"id":"vercel","name":"Vercel","layer":"deployment","repo":"vercel/next.js","keywords":["vercel","next.js","nextjs"]},
+    {"id":"modal","name":"Modal","layer":"deployment","repo":null,"keywords":["modal.com"]}
+  ],
+  "edges": [
+    {"from":"langchain","to":"openai","kind":"curated"},{"from":"langchain","to":"anthropic","kind":"curated"},
+    {"from":"langchain","to":"pinecone","kind":"curated"},{"from":"langchain","to":"chroma","kind":"curated"},
+    {"from":"langchain","to":"langsmith","kind":"curated"},{"from":"langchain","to":"weaviate","kind":"curated"},
+    {"from":"llamaindex","to":"openai","kind":"curated"},{"from":"llamaindex","to":"qdrant","kind":"curated"},
+    {"from":"llamaindex","to":"chroma","kind":"curated"},{"from":"llamaindex","to":"langfuse","kind":"curated"},
+    {"from":"autogen","to":"openai","kind":"curated"},{"from":"autogen","to":"docker","kind":"curated"},
+    {"from":"crewai","to":"langchain","kind":"curated"},{"from":"crewai","to":"agentops","kind":"curated"},
+    {"from":"semantic-kernel","to":"openai","kind":"curated"},{"from":"llama","to":"ollama","kind":"curated"},
+    {"from":"grok","to":"mcp","kind":"curated"},{"from":"anthropic","to":"mcp","kind":"curated"},
+    {"from":"e2b","to":"docker","kind":"curated"},{"from":"langfuse","to":"docker","kind":"curated"},
+    {"from":"vercel","to":"openai","kind":"curated"},{"from":"vercel","to":"grok","kind":"curated"}
+  ]
+}
