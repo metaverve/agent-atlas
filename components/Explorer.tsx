@@ -46,6 +46,31 @@ export default function Explorer({ agents, facets, graph, statsMeta, dataset, as
       <span>source: <a href="https://github.com/e2b-dev/awesome-ai-agents">e2b-dev/awesome-ai-agents</a> (CC BY-NC-SA 4.0)</span>
     </div>
 
+    <section className="panel pack-shelf" aria-label="Get the pack" style={{ marginTop: 16 }}>
+      <div className="pack-head">
+        <strong>Get the pack</strong>
+        <span className="note">$19 each · one-time · RANDYLAND</span>
+      </div>
+      <div className="pack-grid">
+        <article className="pack-card lead">
+          <h3>Agent Ops Skill Pack</h3>
+          <p>12 drop-in SKILL.md playbooks that get AI agents shipping, QA-ing and handing off work properly — ship-loop, debug-loop, browser-qa, handoff-contract and more.</p>
+          <div className="pack-actions">
+            <a className="pack-btn" href="https://whop.com/checkout/plan_NLJbcGivXsUmM" target="_blank" rel="noopener noreferrer">Get Agent Ops · $19</a>
+            <a className="note" href="https://whop.com/randyland/agent-ops-skill-pack/" target="_blank" rel="noopener noreferrer">Product page</a>
+          </div>
+        </article>
+        <article className="pack-card">
+          <h3>Craft Prompt Pack for Grok</h3>
+          <p>45 tested prompts for product photos, layouts and short-video plans.</p>
+          <div className="pack-actions">
+            <a className="pack-btn secondary" href="https://whop.com/checkout/plan_f8jwbIHFzQmnE" target="_blank" rel="noopener noreferrer">Get Craft Pack · $19</a>
+            <a className="note" href="https://whop.com/randyland/craft-prompt-pack-for-grok/" target="_blank" rel="noopener noreferrer">Product page</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
     <section className="panel graphbox" style={{ marginTop: 16 }}>
       <div className="legend">{Object.entries(LAYER_COLORS).map(([k, c]) => <span key={k}><i style={{ background: c }} />{k}</span>)}<span style={{ marginLeft: 12 }}>── curated · ┄ inferred</span>
         <div style={{ marginTop: 4 }}>Click a node to filter the list · drag to move · scroll to zoom</div></div>
